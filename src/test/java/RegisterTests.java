@@ -42,16 +42,16 @@ public class RegisterTests {
             Thread.sleep(1000);
         } catch (InterruptedException e) {
         }
-        // driver.findElement(By.xpath("//*[@id=\"verification-form\"]/button")).click();
+         driver.findElement(By.xpath("//*[@id=\"verification-form\"]/button")).click();
 
-        driver.get("https://10minutemail.net/?lang=ru");
+       // driver.get("https://10minutemail.net/?lang=ru");
         try {
 
-            Thread.sleep(70000);
+            Thread.sleep(1000);
         } catch (InterruptedException e) {
         }
-        driver.get("https://10minutemail.net/?lang=ru");
-        driver.findElement(By.xpath("//*[@id=\"left\"]/ul/li[1]/a")).click();
+        //driver.get("https://10minutemail.net/?lang=ru");
+       // driver.findElement(By.xpath("//*[@id=\"left\"]/ul/li[1]/a")).click();
 
 
 //listWebElement visi mailai. paimi masyvo ilgi. t.y kek gavai mailu. ir saugai int kintamajame
@@ -62,18 +62,18 @@ public class RegisterTests {
         //break;}
         //click first email.
 
-        driver.findElement(By.xpath("//*[@id=\"maillist\"]/tbody/tr[2]/td[1]/a")).click();
-        driver.findElement(By.xpath("//*[@id=\"tab1\"]/div[2]/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table[3]/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/a")).click();
+     //   driver.findElement(By.xpath("//*[@id=\"maillist\"]/tbody/tr[2]/td[1]/a")).click();
+       // driver.findElement(By.xpath("//*[@id=\"tab1\"]/div[2]/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table[3]/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/a")).click();
 
 
-        driver.get("https://www.livinn.lt/login");
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-        }
-        driver.findElement(By.xpath("//*[@id=\"_username\"]")).sendKeys("mail");
-        driver.findElement(By.xpath("//*[@id=\"_password\"]")).sendKeys("Emaxerewq69");
-        driver.findElement(By.xpath("//*[@id=\"website-content\"]/div/div/div[1]/div/form/div/button")).click();
+      //  driver.get("https://www.livinn.lt/login");
+    //    try {
+     //       Thread.sleep(1000);
+    //    } catch (InterruptedException e) {
+     //   }
+     //   driver.findElement(By.xpath("//*[@id=\"_username\"]")).sendKeys("mail");
+      //  driver.findElement(By.xpath("//*[@id=\"_password\"]")).sendKeys("Emaxerewq69");
+      //  driver.findElement(By.xpath("//*[@id=\"website-content\"]/div/div/div[1]/div/form/div/button")).click();
     }
 
     @BeforeClass
